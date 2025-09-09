@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.12"
 resolution-markers = [
     "python_full_version >= '3.13'",
@@ -3514,6 +3514,7 @@ dependencies = [
     { name = "pandas" },
     { name = "pexpect" },
     { name = "psycopg2-binary" },
+    { name = "pymupdf" },
     { name = "rich" },
     { name = "sqlmodel" },
     { name = "tiktoken" },
@@ -3566,6 +3567,7 @@ requires-dist = [
     { name = "pandas", specifier = ">=2.3.0" },
     { name = "pexpect", specifier = ">=4.9.0" },
     { name = "psycopg2-binary", specifier = ">=2.9.10" },
+    { name = "pymupdf", specifier = ">=1.26.3" },
     { name = "rich", specifier = ">=14.1.0" },
     { name = "sqlmodel", specifier = ">=0.0.24" },
     { name = "tiktoken", specifier = ">=0.9.0" },
