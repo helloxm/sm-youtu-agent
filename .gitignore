@@ -55,7 +55,7 @@ logs/
 .pytest_cache/
 .mypy_cache/
 # uv.lock
-#.env
+.env
 test.yaml
 requirements.txt
 GEMINI.md
